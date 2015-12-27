@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltiDropper", "UltiDropper\UltiDropper.csproj", "{41DA0590-3B96-4F93-8ED6-8B38664C2C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dropper", "Dropper\Dropper.csproj", "{E279D45C-36A1-4A8B-B7BD-F01DA74AF000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41DA0590-3B96-4F93-8ED6-8B38664C2C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DA0590-3B96-4F93-8ED6-8B38664C2C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DA0590-3B96-4F93-8ED6-8B38664C2C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DA0590-3B96-4F93-8ED6-8B38664C2C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E279D45C-36A1-4A8B-B7BD-F01DA74AF000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E279D45C-36A1-4A8B-B7BD-F01DA74AF000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E279D45C-36A1-4A8B-B7BD-F01DA74AF000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E279D45C-36A1-4A8B-B7BD-F01DA74AF000}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

