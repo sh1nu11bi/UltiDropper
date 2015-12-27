@@ -1,5 +1,5 @@
 # UltiDropper
-A fud file dropper
+A fud file dropper (Fud 27/12/2015)
 
 Features:
 * File downloader
